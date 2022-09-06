@@ -1,0 +1,12 @@
+@mixin tablet {
+    @media (min-width: 768px){
+        @content
+    }
+}
+.container{
+    display: flex;
+    background-color: red;
+    @include tablet(
+        display block
+    )
+}

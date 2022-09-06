@@ -1,0 +1,35 @@
+@import "./utilidades/variables" ;
+@import "./utilidades/funciones" ;
+@import "./utilidades/mixins" ; 
+@import "./utilidades/placehold.scss" ; 
+
+
+@import "./base/resset" ;
+@import "./base/tipografia" ; 
+
+
+@import "./layout/navegacion" ;
+@import "./layout/grid" ; 
+@import "./layout/header" ; 
+@import "./layout/footer" ; 
+@import "./layout/slidebar" ; 
+@import "./layout/formularios" ;
+
+
+@import "./componentes/buttons" ; 
+@import "./componentes/carrusel" ;
+@import "./componentes/cover" ;
+@import "./componentes/dropdown" ;
+
+@import "./pages/inicio" ;
+@import "./pages/contacto" ;
+@import "./pages/edades" ;
+@import "./pages/nosotros" ;
+@import "./pages/torneos" ;
+@import "./pages/libA" ;
+@import "./pages/libB" ;
+@import "./pages/libC" ;
+@import "./pages/seniorA" ;
+@import "./pages/seniorB" ;
+
+
