@@ -1,0 +1,24 @@
+/* Error: Only 0 arguments allowed, but 1 was passed.
+ *     ,
+ * 1   |   @mixin tablet {
+ *     |          ====== declaration
+ * ... |
+ * 9   | /     @include tablet(
+ * 10  | |         display block
+ * 11  | |     )
+ *     | '--- invocation
+ *     '
+ *   scss\utilidades\_mixins.scss 9:5  tablet()
+ *   scss\utilidades\_mixins.scss 9:5  @import
+ *   scss\main.scss 3:9                root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Only 0 arguments allowed, but 1 was passed.\a     \2577 \a 1   \2502    @mixin tablet {\d\a     \2502           \2501 \2501 \2501 \2501 \2501 \2501  declaration\a... \2502 \a 9   \2502  \250c      @include tablet(\a 10  \2502  \2502          display block\a 11  \2502  \2502      )\a     \2502  \2514 \2500 \2500 \2500  invocation\a     \2575 \a   scss\\utilidades\\_mixins.scss 9:5  tablet()\a   scss\\utilidades\\_mixins.scss 9:5  @import\a   scss\\main.scss 3:9                root stylesheet";
+}
