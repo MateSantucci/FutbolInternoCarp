@@ -267,7 +267,7 @@ a{
     text-decoration: none;
 }
 header{
-    background-color: white;
+    background-color: whitesmoke;
     color: red;
     padding: 15px;
 
@@ -392,4 +392,43 @@ header{
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container .header {
     max-width: 1320px;
   }
+
+}
+
+.tarjeta{
+    color: white;
+    border: 2px solid black;
+    width: 250px;
+    font-style: italic;
+    font-size: 2rem;
+    flex-direction: row;
+    animation: mover-tarjeta 2s ease-in-out infinite ;
+}
+.tarjeta__boton{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+.tarjeta__titulo{
+    color: black;
+    font-size: 1rem;
+}
+.tarjeta__descripcion{
+    color: black;
+    font-size: 1rem;
+}
+@keyframes mover-tarjeta{
+    
+    0%{
+        transform: translate(10px);
+        transition-duration: 1s;
+    }
+    50%{
+        transform: translate(20px);
+        background-color: white;
+    }
+    100%{
+        transform: translate(10px);
+        background-color: white;
+    }
 }
