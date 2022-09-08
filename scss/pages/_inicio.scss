@@ -1,6 +1,63 @@
-.footer{
-    font-size: 1rem;
-    text-align: left;
-    text-decoration: none;
-    font-style: oblique;
+header{
+    background-color: whitesmoke;
+    color: red;
+    padding: 15px;
+
+}
+.header__navbar ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.titulo{
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+@media (min-width: 1200px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__navbar{
+        width: 50%;
+    }
+    .parrafo{
+        padding: 15px;
+    }
+}
+.hero{
+    height: 85vh;
+    display: flex;
+    background-image: url(../img/fotopartidoportada.jpg);
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.hero__text{
+    color: black;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.523);
+    border-radius: 20px;
+}
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+.header{
+    color: white;
 }
