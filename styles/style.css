@@ -57,8 +57,9 @@ article h2 {
 h2 {
   font-size: 2rem;
   text-align: center;
-  text-decoration: double;
+  text-decoration: underline;
   font-style: oblique;
+  color: red;
 }
 
 .h1C {
@@ -264,11 +265,15 @@ a {
 
 .tarjeta {
   background-color: white;
-  border: 2px solid black;
-  width: 250px;
-  font-style: italic;
-  font-size: 2rem;
+  border: 2px dashed red;
+  /*width: 250px;*/
+  display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  padding: 15px;
+  margin: 15px;
+  
+  
 }
 
 .tarjeta__imagen {
@@ -313,15 +318,15 @@ a {
 
 @keyframes mover-tarjeta {
   0% {
-    transform: translate(10px);
+    transform: translate(5px);
     transition-duration: 1s;
   }
   50% {
-    transform: translate(20px);
+    transform: translate(10px);
     background-color: white;
   }
   100% {
-    transform: translate(10px);
+    transform: translate(5px);
     background-color: white;
   }
 }
@@ -460,5 +465,12 @@ a {
 .header {
   color: white;
 }
-
+.tarjeta__boton{
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+  color: black;
+  background-color: red;
+  text-decoration: dashed;  
+}
 /*# sourceMappingURL=style.css.map */
