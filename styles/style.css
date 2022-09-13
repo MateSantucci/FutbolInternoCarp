@@ -227,7 +227,7 @@ p {
 }
 
 body {
-  background-color: darkgrey;
+  background-color: rgb(241, 242, 242);
 }
 
 .boton {
@@ -235,14 +235,14 @@ body {
 }
 
 .banner {
-  background-color: darkgray;
+  background-color: lightblue;
   font-style: initial;
   border: 4px solid black;
   text-align: center;
 }
 
 .banner_titulo {
-  background-color: darkgray;
+  background-color: white;
   font-style: initial;
   border: 4px solid black;
   text-align: center;
@@ -473,4 +473,51 @@ a {
   background-color: red;
   text-decoration: dashed;  
 }
+/*.carrousel-tamaño{
+  width: 800px;
+  
+
+}*/
+.titulo{
+  color: white;
+}
+.tarjeta{
+  
+animation: mover-tarjeta 2s ease-in-out infinite alternate;
+}
+@keyframes mover-tarjeta{
+0%{
+  transform: translate(5px);
+  transition-duration: 1s;
+}
+50%{
+  transform: translate(10px);
+  background-color: white;
+}
+100%{
+  transform: translate(10px);
+  background-color: white;
+}
+}
+
+
+@media (min-width: 1200px){
+  .header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .header__navbar{
+      width: 50%;
+  }
+  .parrafo{
+      padding: 15px;
+  }
+  .hero{
+    justify-content: center;
+  }
+  .hero__text{
+    justify-content: center;
+  }
+
 /*# sourceMappingURL=style.css.map */

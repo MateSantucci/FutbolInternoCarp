@@ -42,11 +42,11 @@
 }
 @keyframes mover-tarjeta{
     0%{
-        transform: translate(10px);
+        transform: translate(5px);
         transition-duration: 1s;
     }
     50%{
-        transform: translate(20px);
+        transform: translate(10px);
         background-color: white;
     }
     100%{
