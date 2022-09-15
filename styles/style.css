@@ -481,11 +481,11 @@ a {
 .titulo{
   color: white;
 }
-.tarjeta{
+.container-xl{
   
-animation: mover-tarjeta 2s ease-in-out infinite alternate;
+animation: mover-container-xl 2s ease-in-out infinite alternate;
 }
-@keyframes mover-tarjeta{
+@keyframes mover-container-xl{
 0%{
   transform: translate(5px);
   transition-duration: 1s;
@@ -513,11 +513,23 @@ animation: mover-tarjeta 2s ease-in-out infinite alternate;
   .parrafo{
       padding: 15px;
   }
-  .hero{
-    justify-content: center;
-  }
-  .hero__text{
-    justify-content: center;
-  }
+  .tarjeta{
+    background-color: white;
+    border: 2px dashed red;
+    /*width: 250px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 15px;
+    margin: 15px;
+  
 
+  }
+}
+.container-xl{
+    padding: 15px;
+    background-color: red;
+    color: black;
+    width: 50%;
+}
 /*# sourceMappingURL=style.css.map */
