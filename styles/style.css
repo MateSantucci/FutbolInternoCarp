@@ -276,10 +276,7 @@ a {
   
 }
 
-.tarjeta__imagen {
-  width: 200px;
-  height: auto;
-}
+
 
 .tarjeta__imagen1 {
   width: 600px;
@@ -513,17 +510,13 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
   .parrafo{
       padding: 15px;
   }
-  .tarjeta{
-    background-color: white;
-    border: 2px dashed red;
-    /*width: 250px;*/
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding: 15px;
-    margin: 15px;
-  
-
+  .container-xl{
+    width: 50%;
+    background-color: red;
+    color: black;
+  }
+  .tarjeta__imagen{
+    width: 50%;
   }
 }
 .container-xl{
@@ -531,5 +524,8 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
     background-color: red;
     color: black;
     width: 50%;
+}
+.tarjeta__imagen {
+  width: 50%;
 }
 /*# sourceMappingURL=style.css.map */
