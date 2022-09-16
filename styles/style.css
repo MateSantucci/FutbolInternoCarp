@@ -212,7 +212,7 @@ a {
 }
 
 .header {
-  color: white;
+  background-color: red;
 }
 .tarjeta__boton{
   border-radius: 15px;
@@ -302,5 +302,8 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
   @media min-width(991px) {
     width: 100%;
   }
+}
+.contacto-fondo{
+  background-color: darkgray;
 }
 /*# sourceMappingURL=style.css.map */
