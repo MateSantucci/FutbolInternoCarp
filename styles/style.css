@@ -10,49 +10,13 @@ h1 {
 }
 
 /*RESETEO PARA LOS LINKS*/
-a {
-  text-decoration: none;
-}
 
-.color-verde {
-  color: green;
-}
 
-article h2 {
-  color: lightslategrey;
-}
-
-.parrafo {
-  /* ESTILO DE FUENTE*/
-  font-style: italic;
-  /*PESO DE LA TIPOGRAFIA*/
-  font-weight: normal;
-  /* TAMAÑO DE LA TIPOGRAFIA*/
-  font-size: 1rem;
-  /*ALINEADO DEL TEXTO*/
-  text-align: left;
-  /*DECORADO DEL TEXTO*/
-  /*text-decoration*/
-  /*FAMILIAS TIPOGRAFICAS/TIPO DE TIPOGRAFIAS*/
-  font-family: "monserrat", sans-serif;
-  font-weight: 700;
-  height: 100px;
-  padding: 15px;
-}
 
 /*BACKGROUNDS*/
 /*h2{
    background-color: brown;
 }*/
-.portada {
-  width: 100%;
-  height: 80vh;
-  /*background-image: url(../img/fotosanta.png.jpg\ 3.jpg);*/
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: contain;
-  background-attachment: fixed; /*o scroll*/
-}
 
 h2 {
   font-size: 2rem;
@@ -62,20 +26,7 @@ h2 {
   color: red;
 }
 
-.h1C {
-  font-size: 3rem;
-  text-align: center;
-  text-decoration: underline;
-  font-style: normal;
-}
 
-.h2C {
-  font-size: 2rem;
-  text-align: left;
-  text-decoration: none;
-  font-style: italic;
-  font-weight: normal;
-}
 
 /*
 .tituloN{
@@ -100,7 +51,7 @@ font-size: 1em;
 /* :root{
     font-size: 30px;
 } */
-p {
+/*p {
   font-size: 1rem;
 }
 
@@ -111,16 +62,6 @@ p {
  .tarjeta__titulo--destacado{
    font-size: 2rem; 
  }*/
-.caja.goleadores {
-  font-style: normal;
-  background-color: red;
-  color: black;
-  width: 400px;
-  height: 300px;
-  border: 3px solid black;
-  padding: 10px;
-  display: inline-table;
-}
 
 .caja {
   font-style: italic;
@@ -153,23 +94,8 @@ p {
   /*justify-content: center;*/
 }
 
-.rojo {
-  background-color: rgba(227, 38, 38, 0.264);
-}
 
-.caja-position {
-  font-size: 2rem;
-  text-align: center;
-  padding: 20px;
-  position: relative;
-  /*bottom: 50px ;*/
-}
 
-.caja-positionN {
-  font-size: 2rem;
-  text-align: center;
-  padding: 25px;
-}
 
 .caja-positionC {
   font-size: 2rem;
@@ -194,37 +120,6 @@ p {
 }
  .cincuenta-vh{
     background-color: black;
-
-}*/
-.ul li {
-  background-color: darkgray;
-  display: inline-block;
-}
-
-.ul {
-  list-style: none;
-  font-size: 0px;
-}
-
-.li {
-  display: inline-block;
-  width: 25%;
-  position: relative;
-  font-size: 14px;
-}
-
-.ul ul {
-  position: absolute;
-  display: none;
-}
-
-.ul ul li {
-  display: block;
-}
-
-.ul li:hover ul {
-  display: block;
-}
 
 body {
   background-color: rgb(241, 242, 242);
@@ -262,7 +157,7 @@ a {
   background-color: white;
   color: black;
 }
-
+*/
 .tarjeta {
   background-color: white;
   border: 2px dashed red;
@@ -272,34 +167,6 @@ a {
   justify-content: flex-start;
   padding: 15px;
   margin: 15px;
-  
-  
-}
-
-
-
-.tarjeta__imagen1 {
-  width: 600px;
-  height: 80vh;
-  padding: 20px;
-}
-
-.tarjeta__imagen2 {
-  width: 600px;
-  height: 600vh;
-  padding: 20px;
-}
-
-.tarjeta__imagen3 {
-  width: 800px;
-  height: 800vh;
-  padding: 30px;
-}
-
-.tarjeta__imagen4 {
-  width: 800px;
-  height: 800vh;
-  padding: 20px;
 }
 
 /*---ANIMACIONES---*/
@@ -326,121 +193,6 @@ a {
     transform: translate(5px);
     background-color: white;
   }
-}
-.rojo {
-  background-color: red;
-}
-
-.azul {
-  background-color: blue;
-}
-
-.black {
-  color: black;
-}
-
-.col {
-  flex: 1 0 0%;
-}
-
-.row-cols-auto > * {
-  flex: 0 0 auto;
-  width: auto;
-}
-
-.row-cols-1 > * {
-  flex: 0 0 auto;
-  width: 100%;
-}
-
-.row-cols-2 > * {
-  flex: 0 0 auto;
-  width: 50%;
-}
-
-.row-cols-3 > * {
-  flex: 0 0 auto;
-  width: 33.3333333333%;
-}
-
-.row-cols-4 > * {
-  flex: 0 0 auto;
-  width: 25%;
-}
-
-.row-cols-5 > * {
-  flex: 0 0 auto;
-  width: 20%;
-}
-
-.row-cols-6 > * {
-  flex: 0 0 auto;
-  width: 16.6666666667%;
-}
-
-.col-auto {
-  flex: 0 0 auto;
-  width: auto;
-}
-
-.col-1 {
-  flex: 0 0 auto;
-  width: 8.33333333%;
-}
-
-.col-2 {
-  flex: 0 0 auto;
-  width: 16.66666667%;
-}
-
-.col-3 {
-  flex: 0 0 auto;
-  width: 25%;
-}
-
-.col-4 {
-  flex: 0 0 auto;
-  width: 33.33333333%;
-}
-
-.col-5 {
-  flex: 0 0 auto;
-  width: 41.66666667%;
-}
-
-.col-6 {
-  flex: 0 0 auto;
-  width: 50%;
-}
-
-.col-7 {
-  flex: 0 0 auto;
-  width: 58.33333333%;
-}
-
-.col-8 {
-  flex: 0 0 auto;
-  width: 66.66666667%;
-}
-
-.col-9 {
-  flex: 0 0 auto;
-  width: 75%;
-}
-
-.col-10 {
-  flex: 0 0 auto;
-  width: 83.33333333%;
-}
-
-.col-11 {
-  flex: 0 0 auto;
-  width: 91.66666667%;
-}
-
-.col-12 {
-  flex: 0 0 auto;
-  width: 100%;
 }
 
 .hero {
