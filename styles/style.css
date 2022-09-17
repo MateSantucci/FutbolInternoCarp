@@ -220,8 +220,10 @@ a {
   margin: 5px;
   color: black;
   background-color: red;
-  text-decoration: dashed;  
+  text-decoration: dashed; 
+
 }
+
 /*.carrousel-tamaño{
   width: 800px;
   
