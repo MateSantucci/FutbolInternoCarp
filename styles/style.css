@@ -319,4 +319,7 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
 .contacto-fondo{
   background-color: darkgray;
 }
-/*# sourceMappingURL=style.css.map */
+
+.portada{
+  font-family: 'Montserrat', sans-serif;
+}
