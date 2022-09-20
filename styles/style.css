@@ -111,6 +111,19 @@ font-size: 1em;
   width: 400px;
   display: flex;
   justify-content: center;
+  
+}
+@media (min-width: 480px){
+  .form{
+    background-color: beige;
+    border: 3px double black;
+    margin: 40px 350px 60px;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+  
+  }
 }
 
 /* .cincuenta-porciento{
@@ -216,6 +229,7 @@ a {
 
 .header {
   background-color: orangered;
+  width: 100%;
 }
 .tarjeta__boton{
   border-radius: 15px;
@@ -263,42 +277,6 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
 }
 
 
-@media (min-width: 1200px){
-  .header{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  }
-  .header__navbar{
-      width: 50%;
-  }
-  .parrafo{
-      padding: 15px;
-  }
-  .container-xl{
-    width: 50%;
-    background-color: red;
-    color: black;
-  }
-  .tarjeta__imagen{
-    width: 50%;
-  }
-  .hero {
-    height: 85vh;
-    display: flex;
-    background-image: url(../img/fotopartidoportada.jpg);
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .hero__text {
-    color: black;
-    text-align: center;
-    padding: 15px;
-    background-color: rgba(128, 128, 128, 0.523);
-    border-radius: 20px;
-  }
-}
 .container-xl{
     padding: 15px;
     background-color: rgba(255, 0, 0, 0.75);
@@ -338,3 +316,81 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
   margin-left: auto;
 }
 
+@media (min-width: 480px) {
+  .form{
+    background-color: beige;
+    border: 3px double black;
+    margin: 40px 35px 60px;
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  .caja-positionC{
+    
+    font-size: 1.4rem;
+    text-align: left;
+    padding-left: 10px;
+  }
+  .header{
+    background-color: orangered;
+    width: 100%;
+    
+  }
+  .Tarjeta__boton{
+    border-radius: 10px;
+    padding: 45px;
+    margin: 5px;
+    color: black;
+    background-color: white;
+    text-decoration: dashed; 
+}
+}
+
+@media (min-width: 1200px){
+  .header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .parrafo{
+      padding: 15px;
+  }
+  .container-xl{
+    width: 50%;
+    background-color: red;
+    color: black;
+  }
+  .tarjeta__imagen{
+    width: 50%;
+  }
+  .hero {
+    height: 85vh;
+    display: flex;
+    background-image: url(../img/fotopartidoportada.jpg);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero__text {
+    color: black;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.523);
+    border-radius: 20px;
+  }
+  .Tarjeta__boton{
+      border-radius: 10px;
+      padding: 5px;
+      margin: 5px;
+      color: black;
+      background-color: white;
+      text-decoration: dashed; 
+  }
+  .caja-positionC{
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 10px;
+  }
+}
