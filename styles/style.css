@@ -289,11 +289,7 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
 .container-fluid{
   color: red;
 }
-.navbar navbar-expand-lg bg-light{
-  @media min-width(991px) {
-    width: 100%;
-  }
-}
+
 .contacto-fondo{
   background-color: darkgray;
 }
