@@ -365,6 +365,7 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
     height: 85vh;
     display: flex;
     background-image: url(../img/fotopartidoportada.jpg);
+    padding: 350px;
     justify-content: center;
     align-items: center;
   }
@@ -372,7 +373,7 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
   .hero__text {
     color: black;
     text-align: center;
-    padding: 15px;
+    padding: 25px;
     background-color: rgba(128, 128, 128, 0.523);
     border-radius: 20px;
   }
@@ -389,4 +390,13 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
     text-align: left;
     padding-left: 10px;
   }
+}
+.portada-contacto{
+    font-family: 'Montserrat', sans-serif;
+    background-color: wheat;
+}
+
+.container-md{
+  padding: 30px;
+  margin: 10px;
 }
