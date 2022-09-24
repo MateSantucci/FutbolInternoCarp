@@ -311,7 +311,53 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
  padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-left: auto;
 }
+@media (min-width: 320px){
+  .form{
+    background-color: beige;
+    border: 3px double black;
+    margin: 10px 3px 20px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 250px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .caja-positionC{
+    
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 10px;
+  }
+  .header{
+    background-color: orangered;
+    width: 100%;
+  }
+  .Tarjeta__boton{
+    border-radius: 10px;
+    padding: 45px;
+    margin: 5px;
+    color: black;
+    background-color: white;
+    text-decoration: dashed; 
+}
+  .hero {
+    height: 85vh;
+    display: flex;
+    background-image: url(../img/fotopartidoportada.jpg);
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
 
+  .hero__text {
+    color: black;
+    text-align: center;
+    padding: 25px;
+    background-color: rgba(128, 128, 128, 0.523);
+    border-radius: 20px;
+}
+}
 @media (min-width: 480px) {
   .form{
     background-color: beige;
@@ -341,6 +387,11 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
     background-color: white;
     text-decoration: dashed; 
 }
+.container-xl{
+  width: 50%;
+  background-color: red;
+  color: black;
+}
 }
 
 @media (min-width: 1200px){
@@ -350,9 +401,7 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
       align-items: center;
   }
 
-  .parrafo{
-      padding: 15px;
-  }
+  
   .container-xl{
     width: 50%;
     background-color: red;
