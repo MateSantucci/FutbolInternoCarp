@@ -23,12 +23,12 @@ h2 {
   text-align: center;
   text-decoration: underline;
   font-style: oblique;
-  color: red;
+  /*color: red;*/
 }
 
 
 
-/*
+
 .tituloN{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
@@ -36,8 +36,28 @@ h2 {
     text-align: center;
     text-decoration: underline;
     height: 50px;
-
+    padding: 15px;
+    margin: 30px;
 }
+.parrafoN{
+  margin:  30px;
+  padding: 15px;
+}
+.buscar{
+  display: list-item;
+  flex-direction: row;
+  text-align: right;
+}
+.footer{
+  background-color: black;
+  color: beige;
+  align-items: center;
+  margin-top: 30px;
+}
+.btn{
+  background-color: red;
+}
+
 /*UNIDADES DE MEDIDAS REM Y EM*/
 /*article{
     font-size: 15px;
@@ -94,7 +114,9 @@ font-size: 1em;
   /*justify-content: center;*/
 }
 
-
+.pI{
+  padding: 30px;
+}
 
 
 .caja-positionC {
@@ -322,7 +344,12 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
     display: flex;
     justify-content: center;
   }
-  
+
+  .torneos_{
+    display: inline-block;
+    padding: 5px;
+    font-size: 13px;
+  }
   .caja-positionC{
     
     font-size: 1rem;
@@ -335,17 +362,17 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
   }
   .Tarjeta__boton{
     border-radius: 10px;
-    padding: 45px;
-    margin: 5px;
+    padding: 35px;
+    margin: 2px;
     color: black;
     background-color: white;
     text-decoration: dashed; 
 }
   .hero {
-    height: 85vh;
+    height: 120vh;
     display: flex;
     background-image: url(../img/fotopartidoportada.jpg);
-    padding: 10px;
+    padding: 5px;
     justify-content: center;
     align-items: center;
 }
@@ -353,10 +380,14 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
   .hero__text {
     color: black;
     text-align: center;
-    padding: 25px;
+    padding: 0.5px;
     background-color: rgba(128, 128, 128, 0.523);
     border-radius: 20px;
 }
+  .img-thumbnail{
+    border-radius: 10px;
+}
+ 
 }
 @media (min-width: 480px) {
   .form{
@@ -367,6 +398,14 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
     width: 300px;
     display: flex;
     justify-content: center;
+  }
+  .torneos{
+    display: flex;
+  }
+  .torneos_{
+    display: inline-block;
+    padding: 18px;
+    font-size: 15px;
   }
   .caja-positionC{
     
@@ -380,18 +419,22 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
     
   }
   .Tarjeta__boton{
+
     border-radius: 10px;
-    padding: 45px;
-    margin: 5px;
+    margin: 0.5px;
     color: black;
     background-color: white;
     text-decoration: dashed; 
 }
 .container-xl{
-  width: 50%;
+  width: 420px;
   background-color: red;
   color: black;
 }
+.img-thumbnail{
+  border-radius: 10px;
+}
+
 }
 
 @media (min-width: 1200px){
@@ -400,8 +443,15 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
       justify-content: space-between;
       align-items: center;
   }
-
-  
+  .img-thumbnail{
+    border-radius: 10px;
+}
+.torneos_{
+  display: inline-block;
+  padding: 10px;
+  margin: 5px 25px 15px 100px;
+  font-size: 18px;
+}
   .container-xl{
     width: 50%;
     background-color: red;
@@ -448,4 +498,25 @@ animation: mover-container-xl 2s ease-in-out infinite alternate;
 .container-md{
   padding: 30px;
   margin: 10px;
+}
+.torneos {
+  background-color:  black;
+  display: flex;
+  flex-direction: row;
+}
+.torneos_ {
+  color: red;
+}
+
+.torneos_estilo {
+  margin-top: 10px;
+  color: red;
+  text-decoration: underline;
+}
+.torneo_img{
+ padding: 80px;
+ background-color: wheat;
+}
+.body {
+  background-color: wheat;
 }
