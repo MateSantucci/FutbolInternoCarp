@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+      "title": "Entrenamiento deportivo fútbol",
+      "description": "entrenamiento deportivo",
+      "price": 4500,
+      "code": 1,
+      "stock": 8
+    },
+    {
+      "id": 2,
+      "title": "Funcional",
+      "description": "Entrenamiento Funcional",
+      "price": 500,
+      "code": 105,
+      "stock": 15
+    },
+    {
+      "id": 3,
+      "title": "Entrenamiento de fuerza",
+      "description": "entrenamiento de fuerza",
+      "price": 2500,
+      "code": 5041,
+      "stock": 30
+    },
+    {
+      "id": 4,
+      "title": "Entrenamiento aerobico",
+      "description": "aerobico",
+      "price": 110,
+      "code": 1545,
+      "stock": 4
+    },
+    {
+      "id": 5,
+      "title": "Gimnasio",
+      "description": "Entrenamiento de gimnasio",
+      "price": 50,
+      "code": 1545,
+      "stock": 4
+    },
+    {
+      "id": 6,
+      "title": "Personalizado",
+      "description": "Entrenamiento personalizado",
+      "price": 5000,
+      "code": 1545,
+      "stock": 4
+    },
+    {
+      "id": 7,
+      "title": "Grupal",
+      "description": "Entrenamiento grupal",
+      "price": 1500,
+      "code": 1545,
+      "stock": 8
+    },
+    {
+      "id": 8,
+      "title": "Individual",
+      "description": "Entrenamiento individual",
+      "price": 50,
+      "code": 1545,
+      "stock": 1
+    },
+    {
+      "id": 9,
+      "title": "Tenis",
+      "description": "Entrenamiento de tenis",
+      "price": 50,
+      "code": 1546,
+      "stock": 20
+    },
+    {
+      "id": 10,
+      "title": "Básquet",
+      "description": "Entrenamiento de básquet",
+      "price": 50,
+      "code": 1545,
+      "stock": 14
+    }
+  ]
