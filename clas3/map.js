@@ -30,4 +30,45 @@ function myMap (array, callback) : any[]{
     const nuevoValor = callback (array [i], i, array )
     }
 
+    const funcional = document.getElementById('form-name').value;
+
+    const deportivo = document.getElementById('form-species').value;
+
+    const fuerza = document.getElementById('form-owner').value;
+
+    const aerobico = document.getElementById('form-file');
+
+    const gimnasio = document.getElementById('form-file');
+
+    const personalizado = document.getElementById('form-file');
+
+    const grupal= document.getElementById('form-file');
+
+    const individual = document.getElementById('form-file');
+
+    const tenis = document.getElementById('form-file');
+
+    const formData = new FormData();
+
+    formData.append('nombre', nombre);
+
+    formData.append('especie', especie);
+
+    formData.append('duenio', dueño);
+
+    formData.append('file', file.files[0]);
+
+    const response = await fetch('/api/pets', {
+
+     method: 'POST',
+
+     body: formData,
+
+     headers: {
+
+     },
+
+    });
+
+
 } 

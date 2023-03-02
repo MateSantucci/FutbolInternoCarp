@@ -5,7 +5,7 @@ class ProductManager {
     this.path = filePath;
   }
 
-  // Private method: Read file and return content.
+  
   async #readFile() {
     try {
       const content = await fs.promises.readFile(this.path, 'utf-8');
@@ -26,7 +26,7 @@ class ProductManager {
     }
   }
 
-  // Public methods: Get a product by id.
+  
   async getProductById(id) {
     try {
       const fileContent = await this.#readFile();
